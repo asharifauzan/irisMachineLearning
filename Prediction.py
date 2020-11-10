@@ -14,10 +14,3 @@ length = float(input('Masukkan Panjang Sepal (cm) : '))
 width = float(input('Masukkan Lebar Sepal (cm) : '))
 prediction = model.predict([[length, width]])
 print('Prediction : ')
-
-if prediction == 0:
-    print('Iris Sentosa')
-elif prediction == 1:
-    print("Iris Versicolor")
-else:
-    print("Iris Virginica")
